@@ -1,0 +1,38 @@
+*{
+  list-style: none !important;
+}
+#header {
+  background-color: $primary-color;
+  padding: 1rem 0;
+  .header {
+    @include flexbox();
+    display: flex;
+    .fa-solid {
+      margin-right: 10px;
+      color: $color-white;
+    }
+    .phone {
+      color: $color-white;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 30px;
+        text-decoration: none;
+        list-style: none;
+        li {
+          a {
+            color: $color-white;
+            transition: all 1s;
+            cursor: pointer;
+         
+            &:hover {
+             color: pink;
+            
+            }
+          }
+        }
+      }
+    }
+  }
+}
