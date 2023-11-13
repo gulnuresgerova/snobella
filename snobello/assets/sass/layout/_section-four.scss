@@ -138,13 +138,20 @@
     }
   }
   @media screen and (max-width: 767px) {
-    .products-heading {
+    .products-head {
       h2 {
         display: none;
       }
-      .products-container-two {
+      .products-container-three {
         flex-direction: column;
         align-items: center;
+        .card{
+          width: 100%;
+          .lorem{
+            align-items: center !important;
+            justify-content: center !important;
+          }
+        }
       }
     }
   }

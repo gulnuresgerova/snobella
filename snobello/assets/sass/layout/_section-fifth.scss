@@ -145,6 +145,13 @@
       .products-container-two {
         flex-direction: column;
         align-items: center;
+        .card{
+          width: 100%;
+          .lorem{
+            align-items: center !important;
+            justify-content: center !important;
+          }
+        }
       }
     }
   }

@@ -17,11 +17,21 @@
     nav {
       ul {
         display: flex;
-        gap: 30px;
+        gap: 5px;
         text-decoration: none;
         list-style: none;
+      
         li {
+          
+             .bord{
+            border-left: 2px solid white;
+            border-right: 2px solid white;
+            padding: 6px;
+          }
+
+       
           a {
+        font-size: 18px;
             color: $color-white;
             transition: all 1s;
             cursor: pointer;
@@ -32,6 +42,7 @@
             }
           }
         }
+     
       }
     }
   }
