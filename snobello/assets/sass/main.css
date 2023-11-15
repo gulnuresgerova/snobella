@@ -207,7 +207,7 @@ a {
 }
 #section-four .section-four .card {
   background-color: #f5f5f5;
-  width: 50%;
+  width: 100% !important;
   transition: 0.3s;
 }
 #section-four .section-four .card .card:hover {
@@ -217,12 +217,13 @@ a {
 }
 #section-four .section-four .card h3 {
   margin: 20px;
-  font-weight: 600;
+  font-size: 2rem;
+  align-items: center;
 }
 #section-four .section-four .card img {
   width: 163px;
   height: 80px;
-  margin-left: 30px;
+  align-items: center;
 }
 #section-four .products {
   padding: 1.5rem 0;
@@ -238,10 +239,8 @@ a {
   padding: 3%;
   justify-content: space-between;
   row-gap: 1rem;
-  width: 40%;
+  width: 100%;
   display: flex;
-  position: relative;
-  text-align: center;
   border-radius: 5px;
 }
 #section-four .products .products-container .stars img {
@@ -422,7 +421,8 @@ a {
     width: 100%;
   }
   .section-four .card {
-    width: 100%;
+    width: 100% !important;
+    align-items: center;
   }
   .products h2 {
     display: none;
